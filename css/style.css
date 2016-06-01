@@ -1,0 +1,116 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+p {
+	font-family: arial;
+}
+
+img {
+	display: block;
+}
+#menu {
+	background-color: #000000;
+	height: 60px;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	height: 40px;
+	width: 100px;
+	padding-left: 10px;
+}
+
+.nav {
+	float: right;
+	color: #ffffff;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: arial;
+}
+
+.nav li {
+	float: left;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+.nav li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	color: #ee2b7b;
+	text-decoration: none;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	padding-top: 40px;
+}
+
+#slider {
+	width: 50%;
+	float: left;
+}
+
+#copy {
+	width: 45%;
+	float: left;
+	padding-left: 5%;
+}
+
+#footer {
+	background-color: #000000;
+	height: 100px;
+	width: 100%;
+	clear: both;
+	margin-top: 40px;
+	float: left;
+	overflow: auto;
+}
+
+.social {
+	list-style-image: none;
+	list-style-type: none;
+	margin-top: 22px;
+	float: right;
+}
+
+.social li {
+	float: left;
+	margin-left: 20px;
+}
+
+ul.social li a span{
+	background-image: url(social/social.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 22px;
+	width: 22px;
+}
+
+ul.social li a span.pinterest{background-position:0 0;}
+ul.social li a:hover span.pinterest{background-position:0 -22px;}
+ul.social li a span.twitter{background-position: -22px 0;}
+ul.social li a:hover span.twitter{background-position: -22px -22px;}
+ul.social li a span.instagram{background-position: -44px 0;}
+ul.social li a:hover span.instagram{background-position: -44px -22px;}
+ul.social li a span.behance{background-position: -66px 0;}
+ul.social li a:hover span.behance{background-position: -66px -22px;}
+
+
+
+
+
+
+
